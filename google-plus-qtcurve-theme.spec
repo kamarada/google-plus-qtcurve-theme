@@ -1,5 +1,5 @@
 #
-# spec file for package google+-qtcurve-theme
+# spec file for package google-plus-qtcurve-theme
 #
 # Copyright (c) 2014 Kamarada Project, Aracaju, Brazil.
 #
@@ -28,6 +28,7 @@ Source1:        LICENSE
 Url:            http://half-left.deviantart.com/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildArch:      noarch
+BuildRequires:	kde4-filesystem
 BuildRequires:  unzip
 Requires:       qtcurve-kde4
 
