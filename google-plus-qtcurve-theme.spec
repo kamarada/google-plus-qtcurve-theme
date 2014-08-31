@@ -49,7 +49,6 @@ cp -a %{SOURCE1} COPYING
 
 
 %install
-echo %{_kde4_appsdir}
 mkdir -p %{buildroot}%{_kde4_appsdir}/color-schemes
 cp Google.colors %{buildroot}%{_kde4_appsdir}/color-schemes
 mkdir -p %{buildroot}%{_kde4_appsdir}/QtCurve
